@@ -1,0 +1,42 @@
+# Cross validation
+# Neural Network parameters
+structure = [spam.number_of_features, 50, 1]
+learning_rate = 0.01
+weight_variances = [5.0, 1.0, 0.5, 0.1, 0.01, 0.001, 0.0001]
+#stopping_condition = 'error_change_threshold'
+#stopping_condition = 'maximum_epochs'
+stopping_condition = 'error_threshold'
+error_threshold = 0.35
+error_change_threshold = 0.0001
+maximum_epochs = 500
+output_layer = 'logistic_sigmoid'
+
+
+weight_variance: 5.0
+Validation Accuracy: 0.8502717391304347
+Epochs: 50.4
+Train Time: 11.650875806808472
+weight_variance: 1.0
+Validation Accuracy: 0.8763586956521738
+Epochs: 4.4
+Train Time: 0.7879175662994384
+weight_variance: 0.5
+Validation Accuracy: 0.8739130434782607
+Epochs: 3.2
+Train Time: 0.4917590618133545
+weight_variance: 0.1
+Validation Accuracy: 0.8554347826086955
+Epochs: 10.0
+Train Time: 2.1230665683746337
+weight_variance: 0.01
+Validation Accuracy: 0.8116847826086957
+Epochs: 150.0
+Train Time: 33.7383358001709
+weight_variance: 0.001
+Validation Accuracy: 0.6149456521739131
+Epochs: 150.0
+Train Time: 34.04383373260498
+weight_variance: 0.0001]
+Validation Accuracy: 0.6149456521739131
+Epochs: 150.0
+Train Time: 34.779815149307254

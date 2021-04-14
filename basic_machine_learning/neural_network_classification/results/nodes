@@ -1,0 +1,44 @@
+# Neural Network parameters
+structures = [
+    [spam.number_of_features, 60, 1],
+    [spam.number_of_features, 30, 30, 1],
+    [spam.number_of_features, 20, 20, 20, 1],
+    [spam.number_of_features, 15, 15, 15, 15, 1],
+    [spam.number_of_features, 12, 12, 12, 12, 12, 1],
+    [spam.number_of_features, 10, 10, 10, 10, 10, 10, 1],
+]
+learning_rate = 0.01
+weight_variance = 0.2
+#stopping_condition = 'error_change_threshold'
+stopping_condition = 'maximum_epochs'
+error_change_threshold = 0.0001
+maximum_epochs = 500
+output_layer = 'logistic_sigmoid'
+
+/Users/elliot/Documents/Class/528/projects/project4/venv_project4/bin/python /Users/elliot/Documents/Class/528/projects/project4/project4.py
+Structure: [57, 60, 1]
+Validation Accuracy: 0.9233695652173912
+Epochs: 500.0
+Train Time: 113.56205639839172
+Structure: [57, 30, 30, 1]
+Validation Accuracy: 0.9165760869565217
+Epochs: 500.0
+Train Time: 152.46069765090942
+Structure: [57, 20, 20, 20, 1]
+Validation Accuracy: 0.9070652173913043
+Epochs: 500.0
+Train Time: 189.4135094165802
+Structure: [57, 15, 15, 15, 15, 1]
+Validation Accuracy: 0.8834239130434783
+Epochs: 500.0
+Train Time: 1189.576668405533
+Structure: [57, 12, 12, 12, 12, 12, 1]
+Validation Accuracy: 0.8627717391304348
+Epochs: 500.0
+Train Time: 278.411639213562
+Structure: [57, 10, 10, 10, 10, 10, 10, 1]
+Validation Accuracy: 0.6135869565217391
+Epochs: 500.0
+Train Time: 293.73348436355593
+
+Process finished with exit code 1

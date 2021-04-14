@@ -1,0 +1,40 @@
+# Neural Network parameters
+structure = [spam.number_of_features, 50, 1]
+learning_rates = [10.0, 1.0, 0.1, 0.01, 0.001, 0.0001, 0.00001]
+weight_variance = 0.2
+#stopping_condition = 'error_change_threshold'
+#stopping_condition = 'maximum_epochs'
+stopping_condition = 'error_threshold'
+error_threshold = 0.35
+error_change_threshold = 0.0001
+maximum_epochs = 500
+output_layer = 'logistic_sigmoid'
+
+learning rate: 10.0
+Validation Accuracy: 0.8296195652173912
+Epochs: 150.0
+Train Time: 34.60730404853821
+learning rate: 1.0
+Validation Accuracy: 0.8630434782608696
+Epochs: 150.0
+Train Time: 34.510534572601316
+learning rate: 0.1
+Validation Accuracy: 0.9067934782608695
+Epochs: 3.0
+Train Time: 0.463360595703125
+learning rate: 0.01
+Validation Accuracy: 0.871195652173913
+Epochs: 4.4
+Train Time: 0.7830214977264405
+learning rate: 0.001
+Validation Accuracy: 0.8652173913043478
+Epochs: 27.4
+Train Time: 6.064440631866455
+learning rate: 0.0001
+Validation Accuracy: 0.8483695652173914
+Epochs: 147.8
+Train Time: 33.38684110641479
+learning rate: 1e-05
+Validation Accuracy: 0.7057065217391305
+Epochs: 150.0
+Train Time: 34.10492582321167

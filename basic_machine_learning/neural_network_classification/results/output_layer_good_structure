@@ -1,0 +1,23 @@
+/Users/elliot/Documents/Class/528/projects/project4/venv_project4/bin/python /Users/elliot/Documents/Class/528/projects/project4/project4.py
+structures = [[spam.number_of_features, 40, 30, 1], [spam.number_of_features, 40, 30, 1], [spam.number_of_features, 40, 30, 2]]
+learning_rate = 0.05
+weight_variance = 0.1
+#stopping_condition = 'error_change_threshold'
+stopping_condition = 'maximum_epochs'
+error_change_threshold = 0.0001
+maximum_epochs = 500
+output_layers = ['linear', 'logistic_sigmoid', 'softmax']
+
+
+Structure: [57, 40, 30, 1]
+Validation Accuracy: 0.9168478260869566
+Epochs: 500.0
+Train Time: 159.3888385295868
+Structure: [57, 40, 30, 1]
+Validation Accuracy: 0.9179347826086957
+Epochs: 500.0
+Train Time: 162.25867824554444
+Structure: [57, 40, 30, 2]
+Validation Accuracy: 0.9163043478260869
+Epochs: 500.0
+Train Time: 230.24289054870604

@@ -1,0 +1,91 @@
+# Neural Network parameters
+structures = [
+    [spam.number_of_features, 5, 1],
+    [spam.number_of_features, 10, 1],
+    [spam.number_of_features, 15, 1],
+    [spam.number_of_features, 20, 1],
+    [spam.number_of_features, 25, 1],
+    [spam.number_of_features, 30, 1],
+    [spam.number_of_features, 35, 1],
+    [spam.number_of_features, 40, 1],
+    [spam.number_of_features, 45, 1],
+    [spam.number_of_features, 50, 1],
+    [spam.number_of_features, 55, 1],
+    [spam.number_of_features, 60, 1],
+    [spam.number_of_features, 65, 1],
+    [spam.number_of_features, 70, 1],
+    [spam.number_of_features, 75, 1],
+    [spam.number_of_features, 80, 1]
+]
+learning_rate = 0.01
+weight_variance = 0.2
+#stopping_condition = 'error_change_threshold'
+stopping_condition = 'maximum_epochs'
+error_change_threshold = 0.0001
+maximum_epochs = 500
+output_layer = 'logistic_sigmoid'
+
+Structure: [57, 5, 1]
+Validation Accuracy: 0.7144021739130435
+Epochs: 500.0
+Train Time: 101.16168241500854
+Structure: [57, 10, 1]
+Validation Accuracy: 0.79375
+Epochs: 500.0
+Train Time: 106.43446326255798
+Structure: [57, 15, 1]
+Validation Accuracy: 0.8013586956521739
+Epochs: 500.0
+Train Time: 106.61049118041993
+Structure: [57, 20, 1]
+Validation Accuracy: 0.8554347826086957
+Epochs: 500.0
+Train Time: 109.17739205360412
+Structure: [57, 25, 1]
+Validation Accuracy: 0.8622282608695653
+Epochs: 500.0
+Train Time: 109.78802361488343
+Structure: [57, 30, 1]
+Validation Accuracy: 0.8836956521739131
+Epochs: 500.0
+Train Time: 114.18252730369568
+Structure: [57, 35, 1]
+Validation Accuracy: 0.8907608695652174
+Epochs: 500.0
+Train Time: 115.60321826934815
+Structure: [57, 40, 1]
+Validation Accuracy: 0.8983695652173912
+Epochs: 500.0
+Train Time: 113.20793061256408
+Structure: [57, 45, 1]
+Validation Accuracy: 0.9070652173913043
+Epochs: 500.0
+Train Time: 111.89592881202698
+Structure: [57, 50, 1]
+Validation Accuracy: 0.9089673913043479
+Epochs: 500.0
+Train Time: 111.45523080825805
+Structure: [57, 55, 1]
+Validation Accuracy: 0.9149456521739129
+Epochs: 500.0
+Train Time: 110.35368957519532
+Structure: [57, 60, 1]
+Validation Accuracy: 0.9176630434782609
+Epochs: 500.0
+Train Time: 114.97733855247498
+Structure: [57, 65, 1]
+Validation Accuracy: 0.9179347826086957
+Epochs: 500.0
+Train Time: 120.62402124404908
+Structure: [57, 70, 1]
+Validation Accuracy: 0.9211956521739131
+Epochs: 500.0
+Train Time: 140.09674320220947
+Structure: [57, 75, 1]
+Validation Accuracy: 0.9206521739130435
+Epochs: 500.0
+Train Time: 129.09673438072204
+Structure: [57, 80, 1]
+Validation Accuracy: 0.9211956521739129
+Epochs: 500.0
+Train Time: 129.4940089225769

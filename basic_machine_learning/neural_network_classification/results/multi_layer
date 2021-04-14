@@ -1,0 +1,91 @@
+# Neural Network parameters
+structures = [
+    [spam.number_of_features, 5, 1],
+    [spam.number_of_features, 5, 5, 1],
+    [spam.number_of_features, 5, 5, 5, 1],
+    [spam.number_of_features, 5, 5, 5, 5, 1],
+    [spam.number_of_features, 20, 1],
+    [spam.number_of_features, 20, 20, 1],
+    [spam.number_of_features, 20, 20, 20, 1],
+    [spam.number_of_features, 20, 20, 20, 20, 1],
+    [spam.number_of_features, 57, 1],
+    [spam.number_of_features, 57, 57, 1],
+    [spam.number_of_features, 57, 57, 57, 1],
+    [spam.number_of_features, 57, 57, 57, 57, 1],
+    [spam.number_of_features, 80, 1],
+    [spam.number_of_features, 80, 80, 1],
+    [spam.number_of_features, 80, 80, 80, 1],
+    [spam.number_of_features, 80, 80, 80, 80, 1],
+]
+learning_rate = 0.01
+weight_variance = 0.2
+#stopping_condition = 'error_change_threshold'
+stopping_condition = 'maximum_epochs'
+error_change_threshold = 0.0001
+maximum_epochs = 500
+output_layer = 'logistic_sigmoid'
+
+Structure: [57, 5, 1]
+Validation Accuracy: 0.6665760869565218
+Epochs: 500.0
+Train Time: 102.16651878356933
+Structure: [57, 5, 5, 1]
+Validation Accuracy: 0.7709239130434782
+Epochs: 500.0
+Train Time: 142.615989112854
+Structure: [57, 5, 5, 5, 1]
+Validation Accuracy: 0.7638586956521738
+Epochs: 500.0
+Train Time: 181.50857810974122
+Structure: [57, 5, 5, 5, 5, 1]
+Validation Accuracy: 0.7855978260869565
+Epochs: 500.0
+Train Time: 220.0391929626465
+Structure: [57, 20, 1]
+Validation Accuracy: 0.8641304347826088
+Epochs: 500.0
+Train Time: 106.07187566757202
+Structure: [57, 20, 20, 1]
+Validation Accuracy: 0.9019021739130434
+Epochs: 500.0
+Train Time: 158.30308799743653
+Structure: [57, 20, 20, 20, 1]
+Validation Accuracy: 0.8994565217391305
+Epochs: 500.0
+Train Time: 199.76344819068908
+Structure: [57, 20, 20, 20, 20, 1]
+Validation Accuracy: 0.9067934782608695
+Epochs: 500.0
+Train Time: 243.74116015434265
+Structure: [57, 57, 1]
+Validation Accuracy: 0.923913043478261
+Epochs: 500.0
+Train Time: 114.61856579780579
+Structure: [57, 57, 57, 1]
+Validation Accuracy: 0.9334239130434782
+Epochs: 500.0
+Train Time: 186.51020522117614
+Structure: [57, 57, 57, 57, 1]
+Validation Accuracy: 0.9220108695652174
+Epochs: 500.0
+Train Time: 259.818852186203
+Structure: [57, 57, 57, 57, 57, 1]
+Validation Accuracy: 0.9320652173913043
+Epochs: 500.0
+Train Time: 317.3235747337341
+Structure: [57, 80, 1]
+Validation Accuracy: 0.9271739130434782
+Epochs: 500.0
+Train Time: 129.2309940338135
+Structure: [57, 80, 80, 1]
+Validation Accuracy: 0.9326086956521739
+Epochs: 500.0
+Train Time: 234.78949356079102
+Structure: [57, 80, 80, 80, 1]
+Validation Accuracy: 0.9293478260869564
+Epochs: 500.0
+Train Time: 310.07399625778197
+Structure: [57, 80, 80, 80, 80, 1]
+Validation Accuracy: 0.9274456521739131
+Epochs: 500.0
+Train Time: 401.42929515838625
