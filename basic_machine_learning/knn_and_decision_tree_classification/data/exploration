@@ -1,0 +1,61 @@
+The original data is a csv file without headers.
+Headers are given in the project description, and have been added to the data file.
+Sample Code Number, Clump Thickness, Uniformity of Cell Size, Uniformity of Cell Shape, Marginal Adhesion, Single Epithelial Cell Size, Bare Nuclei, Bland Chromatin, Normal Nucleoli, Mitoses, Class
+All values are integers from one to ten. The class is a binary option: two for benign and four for malignant
+There are 16 rows missing values in the Bare Nuclei column. These rows are removed, because we have no prior knowledge of this domain.
+The Sample Code number is removed from analysis because it is an index value rather than data.
+No standardization is applied to the data, because each ranges between integer values one and ten. This will also allow the decision tree rules to be interpreted later by medical professionals.
+The data for our analysis has nine features and one class label
+
+
+Maximum
+Sample Code Number                   1.4e+07
+Clump Thickness                      10
+Uniformity of Cell Size              10
+Uniformity of Cell Shape             10
+Marginal Adhesion                    10
+Single Epithelial Cell Size          10
+Bare Nuclei                          10
+Bland Chromatin                      10
+Normal Nucleoli                      10
+Mitoses                              10
+Class                                4.0
+
+Minimum
+Sample Code Number                 6.3e+04
+Clump Thickness                    1.0
+Uniformity of Cell Size            1.0
+Uniformity of Cell Shape           1.0
+Marginal Adhesion                  1.0
+Single Epithelial Cell Size        1.0
+Bare Nuclei                        1.0
+Bland Chromatin                    1.0
+Normal Nucleoli                    1.0
+Mitoses                            1.0
+Class                              2.0
+
+Mean
+Sample Code Number             1.08e+06
+Clump Thickness                4.44
+Uniformity of Cell Size        3.15
+Uniformity of Cell Shape       3.22
+Marginal Adhesion              2.83
+Single Epithelial Cell Size    3.23
+Bare Nuclei                    3.54
+Bland Chromatin                3.45
+Normal Nucleoli                2.87
+Mitoses                        1.60
+Class                          2.70
+
+Standard Deviation
+Sample Code Number                  6.21e+05
+Clump Thickness                     2.82
+Uniformity of Cell Size             3.07
+Uniformity of Cell Shape            2.99
+Marginal Adhesion                   2.86
+Single Epithelial Cell Size         2.22
+Bare Nuclei                         3.64
+Bland Chromatin                     2.45
+Normal Nucleoli                     3.05
+Mitoses                             1.73
+Class                               0.95

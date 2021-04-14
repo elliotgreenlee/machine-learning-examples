@@ -1,0 +1,214 @@
+
+k = 2
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|306		|011		|
+malignant	|005		|156		|
+
+Accuracy
+0.966527196653
+
+True Positive Rate, Recall, Sensitivity
+0.968944099379
+
+Positive Predictive Value, Precision
+0.934131736527
+
+True Negative Rate, Specificity
+0.965299684543
+
+F Score
+0.475609756098
+
+--------------------------------------------------
+
+k = 3
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|311		|006		|
+malignant	|009		|152		|
+
+Accuracy
+0.968619246862
+
+True Positive Rate, Recall, Sensitivity
+0.944099378882
+
+Positive Predictive Value, Precision
+0.962025316456
+
+True Negative Rate, Specificity
+0.981072555205
+
+F Score
+0.476489028213
+
+--------------------------------------------------
+
+k = 4
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|309		|008		|
+malignant	|007		|154		|
+
+Accuracy
+0.968619246862
+
+True Positive Rate, Recall, Sensitivity
+0.95652173913
+
+Positive Predictive Value, Precision
+0.950617283951
+
+True Negative Rate, Specificity
+0.97476340694
+
+F Score
+0.476780185759
+
+--------------------------------------------------
+
+k = 5
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|311		|006		|
+malignant	|010		|151		|
+
+Accuracy
+0.966527196653
+
+True Positive Rate, Recall, Sensitivity
+0.937888198758
+
+Positive Predictive Value, Precision
+0.96178343949
+
+True Negative Rate, Specificity
+0.981072555205
+
+F Score
+0.474842767296
+
+--------------------------------------------------
+
+k = 6
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|309		|008		|
+malignant	|006		|155		|
+
+Accuracy
+0.970711297071
+
+True Positive Rate, Recall, Sensitivity
+0.962732919255
+
+Positive Predictive Value, Precision
+0.950920245399
+
+True Negative Rate, Specificity
+0.97476340694
+
+F Score
+0.478395061728
+
+--------------------------------------------------
+
+k = 7
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|309		|008		|
+malignant	|010		|151		|
+
+Accuracy
+0.962343096234
+
+True Positive Rate, Recall, Sensitivity
+0.937888198758
+
+Positive Predictive Value, Precision
+0.949685534591
+
+True Negative Rate, Specificity
+0.97476340694
+
+F Score
+0.471875
+
+--------------------------------------------------
+
+k = 8
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|309		|008		|
+malignant	|005		|156		|
+
+Accuracy
+0.97280334728
+
+True Positive Rate, Recall, Sensitivity
+0.968944099379
+
+Positive Predictive Value, Precision
+0.951219512195
+
+True Negative Rate, Specificity
+0.97476340694
+
+F Score
+0.48
+
+--------------------------------------------------
+
+k = 16
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|311		|006		|
+malignant	|008		|153		|
+
+Accuracy
+0.970711297071
+
+True Positive Rate, Recall, Sensitivity
+0.950310559006
+
+Positive Predictive Value, Precision
+0.962264150943
+
+True Negative Rate, Specificity
+0.981072555205
+
+F Score
+0.478125
+
+--------------------------------------------------
+
+k = 32
+Confusion Matrix
+			|Predicted Class		|
+True Class	|benign		|malignant	|
+benign		|311		|006		|
+malignant	|013		|148		|
+
+Accuracy
+0.960251046025
+
+True Positive Rate, Recall, Sensitivity
+0.919254658385
+
+Positive Predictive Value, Precision
+0.961038961039
+
+True Negative Rate, Specificity
+0.981072555205
+
+F Score
+0.469841269841
