@@ -1,0 +1,12 @@
+# Setup
+Create a project directory
+Create a virtual environment in the project directory
+
+# Code
+git clone or download this repository into the project directory
+
+# Extra libraries
+Activate the virtual environment
+run pip install -r requirements.txt
+
+# Test
