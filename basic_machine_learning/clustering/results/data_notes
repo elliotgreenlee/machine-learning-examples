@@ -1,0 +1,58 @@
+Under 5 mortality per 1000 live births
+
+Average in 1800: 425
+Highest in 1800: 540 Yemen
+Lowest in 1800: 322 Belgium
+
+Average in 2015: 33.0
+Highest in 2015: 157 Angola
+Lowest in 2015: 1.9 Luxembourg
+
+Largest difference from 1800 to 2015:
+500 South Korea
+493 Yemen
+492 Kuwait
+491 Iran
+487 Nicaragua
+
+Smallest difference from 1800 to 2015:
+293 Chad
+310 Lesotho
+313 Central African Republic
+315 Somalia
+316 Zimbabwe
+
+The average change is 392
+
+Highest Component 1
+Norway
+Sweden
+Malta
+Denmark
+United Kingdom
+
+Lowest Component 1
+Sierra Leone
+Yemen
+Mali
+Angola
+Senegal
+
+Highest Component 2
+Niger
+Chad
+Guinea-Bissau
+Guinea
+Mali
+
+Lowest Component 2
+Barbados
+South Korea
+Fiji
+Kuwait
+Kazakhstan
+
+
+275 countries
+N = 184 countries left after removing 91 bad data
+d = 216 features from 1800 to 2015
